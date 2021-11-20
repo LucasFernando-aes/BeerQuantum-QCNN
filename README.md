@@ -14,7 +14,7 @@ A seguir, alguns pontos importantes do desenvolvimento são descritos.
 
 Para a aprendizagem do modelo e avaliação de desempenho, encontrou-se o [conjunto de dados composto por imagens de produtos de reciclagem](web.cecs.pdx.edu/~singh/rcyc-web/index.html), categorizados em 5 classes: Caixas de Papelão, Latas, Latas amassadas, Garrafas de plástico e Garrafas de vidro. Apesar dos dados não serem específicos de produtos da Ambev, foi o conjunto mais próximo publicamente disponível na internet.
 
-Os dados foram disponibilizados na forma de um *Array* numpy compactado. Porém, para-se ter uma idéia da estrutura e qualidade dos dados, primeiramente foi desenvolvido o notebook *recycled_dataset.ipynb*. Neste código, primeiramente abriu-se o array e separou-se os dados em cada uma de suas classes. Em seguida, algumas informações como tamanho e quantidade de imagens foram obtidas e, então, um subgrupo de imagens para cada uma das categorias foi impresso na saída do notebook. Por fim, Imagens foram novamente geradas a partir dos dados em forma de *Array* e salvas em disco em formato png.
+Os dados foram disponibilizados na forma de um *Array* numpy compactado. Porém, para se ter uma idéia da estrutura e qualidade dos dados, primeiramente foi desenvolvido o notebook *recycled_dataset.ipynb*. Neste código, primeiramente abriu-se o array e separou-se os dados em cada uma de suas classes. Em seguida, algumas informações como tamanho e quantidade de imagens foram obtidas e, então, um subgrupo de imagens para cada uma das categorias foi impresso na saída do notebook. Por fim, Imagens foram novamente geradas a partir dos dados em forma de *Array* e salvas em disco em formato png.
 
 ---
 
